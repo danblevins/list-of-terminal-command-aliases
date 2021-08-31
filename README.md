@@ -1,1 +1,1 @@
-# my-terminal-command-aliases
+# My List of Terminal Command Aliases and What They Do
