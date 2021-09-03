@@ -62,8 +62,11 @@ alias nano='nano -c $1'
 alias hist='history | grep $1'
 
 # Github Commands
-alias gpl='git status'
+alias gs='git status'
+alias gba='git branch -a'
 alias gpl='git pull'
+alias gch='git checkout'
+alias gcb='git checkout -b $1'
 alias ga='git add '
 alias gaa='git add .'
 alias gc='git commit -m $1'
