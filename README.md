@@ -1,4 +1,4 @@
-# My List of Terminal Command Aliases and What They Do
+# My List of Terminal Command Aliases
 
 ## By [Dan Blevins](https://www.linkedin.com/in/dan-blevins/)
 
@@ -13,7 +13,7 @@ Want to stay in touch? Connect with me on [LinkedIn](https://www.linkedin.com/in
 ### Table of Contents
 - <a href="#why" style="color: #d4d4d4;">Why Use Aliases?</a>
 - <a href="#how" style="color: #d4d4d4;">How do you Make an Alias using a Mac?</a>
-- <a href="#list" style="color: #d4d4d4;">My List of Terminal Command Aliases and What They Do</a>
+- <a href="#list" style="color: #d4d4d4;">My List of Terminal Command Aliases</a>
 
 <br>
 <br>
@@ -48,7 +48,7 @@ Now, you should be able to clear the terminal screen by running `clear` or using
 
 <br>
 
-**<a id="list"></a>My List of Terminal Command Aliases and What They Do**
+**<a id="list"></a>My List of Terminal Command Aliases**
 
 ```bash
 # Terminal Commands
