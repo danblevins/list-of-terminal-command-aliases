@@ -1,4 +1,4 @@
-# My List of Terminal Command Aliases
+# 💻 List of Terminal Command Aliases
 
 ## By [Dan Blevins](https://www.linkedin.com/in/dan-blevins/)
 
