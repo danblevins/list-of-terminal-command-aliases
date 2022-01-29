@@ -10,7 +10,7 @@ Want to stay in touch? Connect with me on [LinkedIn](https://www.linkedin.com/in
 
 <br>
 
-### Table of Contents
+## Table of Contents
 - <a href="#why" style="color: #d4d4d4;">Why Use Aliases?</a>
 - <a href="#how" style="color: #d4d4d4;">How do you Make an Alias using a Mac?</a>
 - <a href="#list" style="color: #d4d4d4;">My List of Terminal Command Aliases</a>
@@ -18,7 +18,7 @@ Want to stay in touch? Connect with me on [LinkedIn](https://www.linkedin.com/in
 <br>
 <br>
 
-**<a id="why"></a>Why Use Aliases?**
+## <a id="why"></a>Why Use Aliases?
 
 In general, it's important for developers to be lazy and save time when possible. Therefore, aliases are custom keyboard shortcuts that help you save time. For example, it's typically good practice to write comments with your git commits, but it's annoying to constantly type out "git commit -m 'your message comment'." Instead, you can make an alias like `alias gc='git commit -m '` which allows you to simply run "gc 'your message comment'".
 
@@ -26,7 +26,7 @@ I understand it doesn't save you much time, but the more efficient aliases you m
 
 <br>
 
-**<a id="how"></a>How do you Make Aliases on Mac?**
+## <a id="how"></a>How do you Make Aliases on Mac?
 
 If you're using Mac, open your terminal and run: `echo $0`.
   - If "-bash" prints out, then open your bash profile by running `nano ~/.bash_profile`
@@ -48,7 +48,7 @@ Now, you should be able to clear the terminal screen by running `clear` or using
 
 <br>
 
-**<a id="list"></a>My List of Terminal Command Aliases**
+## <a id="list"></a>My List of Terminal Command Aliases
 
 ```bash
 # Terminal Commands
@@ -61,7 +61,7 @@ alias mkdir='mkdir -v'
 alias nano='nano -c $1'
 alias hist='history | grep $1'
 
-# Github Commands
+# Git Commands
 alias gs='git status'
 alias gba='git branch -a'
 alias gpl='git pull'
@@ -73,5 +73,18 @@ alias gc='git commit -m $1'
 alias gsu='git branch --set-upstream-to origin master'
 alias gp='git push'
 alias gr='git rebase -i'
+
+# Heroku Commands
 alias gph='git push heroku HEAD:master'
+alias hs="echo 'web: gunicorn main:app' > Procfile && \
+python3 --version | tr '[:upper:]' '[:lower:]' | tr ' ' '-' > runtime.txt && \
+pipreqs --force > requirements.txt && \
+echo 'gunicorn==20.0.4' >> requirements.txt"
+
+# Python commands
+alias ipython='python3 -m IPython'
+alias python=/usr/local/bin/python3
+
+# Fun commands
+alias w='curl wttr.in/Seattle'
 ```
