@@ -26,7 +26,7 @@ I understand it doesn't save you much time, but the more efficient aliases you m
 
 <br>
 
-**<a id="how"></a>How do you Make an Alias using a Mac?**
+**<a id="how"></a>How do you Make Aliases on Mac?**
 
 If you're using Mac, open your terminal and run: `echo $0`.
   - If "-bash" prints out, then open your bash profile by running `nano ~/.bash_profile`
