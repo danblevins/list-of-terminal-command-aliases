@@ -1,23 +1,5 @@
 # 💻 List of Terminal Command Aliases
 
-## By [Dan Blevins](https://www.linkedin.com/in/dan-blevins/)
-
-<br>
-
-Thanks for reading! Feel free to comment and let me know if you want YouTube tutorials.
-
-Want to stay in touch? Connect with me on [LinkedIn](https://www.linkedin.com/in/dan-blevins/)!
-
-<br>
-
-## Table of Contents
-- <a href="#why" style="color: #d4d4d4;">Why Use Aliases?</a>
-- <a href="#how" style="color: #d4d4d4;">How do you Make an Alias using a Mac?</a>
-- <a href="#list" style="color: #d4d4d4;">My List of Terminal Command Aliases</a>
-
-<br>
-<br>
-
 ## <a id="why"></a>Why Use Aliases?
 
 In general, it's important for developers to be lazy and save time when possible. Therefore, aliases are custom keyboard shortcuts that help you save time. For example, it's typically good practice to write comments with your git commits, but it's annoying to constantly type out "git commit -m 'your message comment'." Instead, you can make an alias like `alias gc='git commit -m '` which allows you to simply run "gc 'your message comment'".
